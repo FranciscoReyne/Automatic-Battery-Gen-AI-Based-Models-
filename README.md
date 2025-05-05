@@ -30,6 +30,8 @@ MODELOS_HUGGINGFACE = {
 }
 ```
 
+## PASO 2.
+
 Para manejar la salida de modelos 3D de manera eficiente, lo mejor es guardar los resultados en una carpeta en lugar de simplemente imprimirlos en pantalla. Dependiendo del tipo de datos generados por los modelos, podrías guardarlos en formatos como `.obj`, `.stl`, `.ply` o `.glb`.
 
 Aquí está el código para guardar automáticamente los archivos en una carpeta llamada `resultados_3d`:
@@ -89,6 +91,4 @@ resultados = batch_processor.process("ruta/a/imagen.jpg")
 ✅ **Guarda los resultados en archivos** dentro de una carpeta, asegurando persistencia.  
 ✅ **Usa formatos adecuados** para salida de modelos 3D (puedes cambiar `.obj` por `.stl`, `.ply`, etc.).  
 ✅ **Organiza cada ejecución** dentro de una estructura clara.  
-
-Esto hace que puedas revisar los archivos generados sin depender de la terminal. ¿Quieres que agreguemos más formatos de exportación? 🚀🔧
 
